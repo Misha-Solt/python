@@ -1,7 +1,10 @@
-def hello(name):
-    print('Hello my friend', name, '!')
-    print('Glad to see you!')
+my_name = 'Misha'
 
+print(my_name.upper())
+print(my_name.lower())
+print(my_name.capitalize())
+print(my_name.index('s'))
+print(my_name.replace('is','as'))
+print(my_name.count('a'))
 
-hello(input('What is your name? Answer: '))
-hello('Masha')
+print(len(my_name))
