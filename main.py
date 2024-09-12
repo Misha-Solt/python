@@ -1,11 +1,7 @@
-# Print name, age and address to console
-# name = 'Misha'
-# address = 'Bavaria'
+def hello(name):
+    print('Hello my friend', name, '!')
+    print('Glad to see you!')
 
-# print(name, 'live in', address)
 
-name = input('Please input your name: ')
-address = input('Please input your address: ')
-age = input('Input your age: ')
-
-print(name.capitalize(), 'is', age, 'years old and live in', address)
+hello(input('What is your name? Answer: '))
+hello('Masha')
