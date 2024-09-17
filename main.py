@@ -1,20 +1,20 @@
-input_str = input('Input any number: ')
-input_int = int(input_str)
+price = 17.23
 
-print(input_int)
-print(type(input_int))
+# print(type(price))
+# print(dir(price))
 
-# __________________________________________________________________
+# ------------------------------------------------------------------------------------
 
-number = int(input('Please input number: '))
-power = int(input('Please input power: '))
+average_price = 19.99
+price = int(average_price)
 
-result = pow(number, power)
-print(result)
-print(type(result))
+print(price)
+print(round(average_price))
 
+# ------------------------------------------------------------------------------------
+temperature_str = '15.5'
+temperature = float(temperature_str)
 
-# ____________________________________________________________________
+print(type(temperature))
 
-long_int = 1_000_000_000
-print(long_int)
+print(float(input('Enter a number: ')))
