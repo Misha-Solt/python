@@ -1,10 +1,20 @@
-my_name = 'Misha'
+input_str = input('Input any number: ')
+input_int = int(input_str)
 
-print(my_name.upper())
-print(my_name.lower())
-print(my_name.capitalize())
-print(my_name.index('s'))
-print(my_name.replace('is','as'))
-print(my_name.count('a'))
+print(input_int)
+print(type(input_int))
 
-print(len(my_name))
+# __________________________________________________________________
+
+number = int(input('Please input number: '))
+power = int(input('Please input power: '))
+
+result = pow(number, power)
+print(result)
+print(type(result))
+
+
+# ____________________________________________________________________
+
+long_int = 1_000_000_000
+print(long_int)
